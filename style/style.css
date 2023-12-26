@@ -42,7 +42,7 @@ main {
   right: 0px;
   z-index: 10000;
   transition: all ease-in-out 0.3s;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .mob-cont {

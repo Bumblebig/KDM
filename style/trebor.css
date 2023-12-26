@@ -1,0 +1,44 @@
+.accom-text {
+  width: 100%;
+  border-top: 5px solid #660066;
+  margin-top: 20px;
+}
+
+.accom-heading-wrapper {
+  width: max-content;
+  padding-top: 8px;
+}
+
+.accom-heading {
+  color: #660066;
+}
+
+.accom-border {
+  width: 90%;
+  height: 5px;
+  background-color: #cc3366;
+}
+
+.accom-heading-main {
+  font-size: 2.4rem;
+}
+
+.prof {
+  margin-top: 20px;
+}
+
+.accom-heading-sub {
+  font-size: 1.6rem;
+}
+
+.accom-desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  max-width: 235px;
+}
+
+.special-b-image {
+  display: block;
+  max-width: 605px;
+  margin: 20px auto;
+}
