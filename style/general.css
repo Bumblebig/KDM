@@ -1,0 +1,30 @@
+/* DEFAULT STYLING, APPLIES TO EVERY ELEMENTS ON THE PAGE IF NOT OVERRIDDEN */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  transition: all ease-in-out 0.3s;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 2000px;
+  min-width: 350px;
+  margin: 0px auto;
+  position: relative;
+  padding-top: 110px;
+}

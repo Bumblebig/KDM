@@ -1,0 +1,130 @@
+footer {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  padding: 30px;
+  background: rgba(178, 153, 255);
+  background: -webkit-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 130%
+  );
+  background: -o-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 130%
+  );
+  background: -moz-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 130%
+  );
+  background: -ms-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102, 255) 130%
+  );
+  background: linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 130%
+  );
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+a.nav-touch-foot:link,
+a.nav-touch-foot:visited {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: none;
+  color: rgb(102, 0, 102);
+  background-color: rgba(255, 153, 51);
+  font-weight: 700;
+  padding: 12px 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+a.nav-touch-foot:hover {
+  background-color: rgba(255, 153, 51, 0.764);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 40px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.path {
+  transition: all ease-in-out 0.2s;
+}
+
+.socials:hover .path {
+  fill: rgb(102, 0, 102);
+}
+
+.privacy:link,
+.privacy:visited {
+  display: inline-block;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.red-stroke {
+  width: 122px;
+  height: 5px;
+  background-color: rgb(204, 51, 102);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 920px) {
+  a.nav-touch-foot:link,
+  a.nav-touch-foot:visited {
+    padding: 12px 20px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  footer {
+    background: rgba(178, 153, 255);
+    background: -webkit-linear-gradient(
+      -188.27342721578deg,
+      rgba(102, 0, 102) 0%,
+      rgba(178, 153, 255) 100%
+    );
+    background: -o-linear-gradient(
+      -188.27342721578deg,
+      rgba(102, 0, 102) 0%,
+      rgba(178, 153, 255) 100%
+    );
+    background: -moz-linear-gradient(
+      -188.27342721578deg,
+      rgba(102, 0, 102) 0%,
+      rgba(178, 153, 255) 100%
+    );
+    background: -ms-linear-gradient(
+      -188.27342721578deg,
+      rgba(102, 0, 102) 0%,
+      rgba(178, 153, 255) 100%
+    );
+    background: linear-gradient(
+      -188.27342721578deg,
+      rgba(102, 0, 102) 0%,
+      rgba(178, 153, 255) 100%
+    );
+  }
+}

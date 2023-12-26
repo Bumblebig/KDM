@@ -1,0 +1,234 @@
+/* HEADER */
+
+header {
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: white;
+  overflow-x: hidden;
+  transition: all ease-in-out 0.3s;
+}
+
+header::-webkit-scrollbar {
+  width: 0px;
+}
+
+.nav {
+  height: auto;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1240px;
+  margin: 0px auto;
+  padding: 1rem 16px;
+  position: relative;
+}
+
+.kdm-logo {
+  width: 153px;
+}
+
+ul li.navs {
+  display: inline-block;
+  margin-left: 37px;
+  list-style-type: none;
+}
+
+.nav-links:link,
+.nav-links:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-bottom: 3px;
+}
+
+.active:link,
+.active:visited,
+.nav-links:hover {
+  border-bottom: 1px solid #660066;
+  color: #660066;
+}
+
+.drop-down {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 8px;
+  position: relative;
+  top: -1px;
+  transition: all ease-in-out 0.3s;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  display: block;
+  background-color: #333;
+  height: 2px;
+  width: 25px;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translateX(-5px) translateY(6px);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: rotate(45deg) translateX(-5px) translateY(-6px);
+}
+
+.sub-nav {
+  visibility: hidden;
+  position: fixed;
+  z-index: 150;
+  background-color: white;
+  width: max-content;
+  border-radius: 5px;
+  padding: 10px 25px;
+  box-shadow: 0px 5px 5px 4px rgba(0, 0, 0, 0.036);
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  top: 54px;
+  right: 164px;
+}
+
+.sub:link,
+.sub:visited {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  height: auto;
+  transition: all ease-in-out 0.3s;
+}
+
+.sub:hover {
+  color: #660066;
+  text-decoration: underline;
+}
+
+.sub-active:link,
+.sub-active:visited {
+  color: #660066;
+  text-decoration: underline;
+}
+
+.box {
+  box-shadow: 0px 6px 17px 10px rgba(0, 0, 0, 0.078);
+  transition: all ease-in-out 0.3s;
+}
+
+.mobile {
+  background-color: #fff;
+  width: 100%;
+  text-align: right;
+  max-height: 0px;
+  transition: all ease-in-out 0.3s;
+  overflow-y: scroll;
+}
+
+.mobile::-webkit-scrollbar {
+  width: 0px;
+}
+
+.mobile-nav-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 16px;
+  gap: 15px;
+}
+
+ul li.mobile-navs {
+  list-style-type: none;
+}
+
+a.nav-links-mobile:link,
+a.nav-links-mobile:visited {
+  font-size: 1.6rem;
+}
+
+.mobile-drop-down {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.mobile-work {
+  transition: all ease-in-out 0.3s;
+  overflow-y: scroll;
+}
+
+.mobile-work::-webkit-scrollbar {
+  width: 0px;
+}
+
+.mobile-sub {
+  display: inline-block;
+}
+
+.mobile-sub-nav {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  transition: all ease-in-out 0.3s;
+  padding-right: 15px;
+  max-height: 0px;
+}
+
+.mobile-sub-height {
+  max-height: 200px;
+  padding: 12px 15px 10px 15px;
+  margin-top: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+.height {
+  max-height: 500px;
+  transition: all ease-in-out 0.3s;
+}
+
+.drop-down-spin {
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 1250px) {
+  .nav-cont {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .kdm-logo {
+    width: 110px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navs-wrapper {
+    display: none;
+  }
+}
