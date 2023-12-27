@@ -42,3 +42,46 @@
   max-width: 605px;
   margin: 20px auto;
 }
+
+@media only screen and (max-width: 1250px) {
+  .special-b-image {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .special-b-image {
+    max-width: 100%;
+  }
+
+  .accom-heading-wrapper {
+    margin: 0px auto;
+  }
+
+  .accom-heading-main {
+    font-size: 2rem;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .accom-border {
+    margin: 0px auto;
+    height: 4px;
+  }
+
+  .accom-heading-sub,
+  .accom-desc {
+    font-size: 1.8rem;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .wrapper {
+    width: 340px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
