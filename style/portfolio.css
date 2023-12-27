@@ -30,6 +30,16 @@
   top: 5px;
 }
 
+.page-desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-top: 5px;
+}
+
+.cooper-border {
+  top: 0px;
+}
+
 .header-content {
   display: flex;
   align-items: stretch;
@@ -64,6 +74,7 @@
 
 .primary-mobile {
   display: none;
+  width: 100%;
 }
 
 .secondary {
@@ -92,9 +103,14 @@ article {
   max-width: 270px;
 }
 
+.natural-bs-heading {
+  max-width: 100%;
+}
+
 .desc {
   font-size: 1.6rem;
   font-weight: 400;
+  max-width: 370px;
 }
 
 .body-images {
@@ -157,6 +173,12 @@ article {
     margin: 0px auto;
     width: 80%;
     top: 0px;
+  }
+
+  .page-desc {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
   }
 
   .header-content {
