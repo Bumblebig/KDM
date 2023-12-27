@@ -1,0 +1,110 @@
+.header-image {
+  display: block;
+  margin: 0px auto;
+  width: 56px;
+}
+
+.heading-text {
+  width: max-content;
+  margin: 0px auto 30px auto;
+}
+
+.text {
+  font-size: 4rem;
+  color: #660066;
+}
+
+.text-border {
+  width: 90%;
+  margin: 0px auto;
+  height: 8px;
+  background-color: #cc3366;
+}
+
+.primary {
+  width: 100%;
+}
+
+.text-chunks {
+  width: 100%;
+}
+
+.sub-heading {
+  max-width: 100%;
+}
+
+.job {
+  max-width: 340px;
+}
+
+.divider {
+  width: 100%;
+  height: 20px;
+  background: #660066;
+  background: -webkit-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 100%
+  );
+  background: -o-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 100%
+  );
+  background: -moz-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 100%
+  );
+  background: -ms-linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 100%
+  );
+  background: linear-gradient(
+    -90deg,
+    rgba(178, 153, 255) 0%,
+    rgba(102, 0, 102) 100%
+  );
+}
+
+.border {
+  width: 100%;
+}
+
+.b-port {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 920px) {
+  .heading-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .text,
+  .page-heading {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .text-border,
+  .border {
+    width: 60%;
+  }
+
+  .heading-width {
+    width: 100%;
+  }
+
+  .primary-mobile {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 0px) {
+}
+
+@media only screen and (max-width: 0px) {
+}
