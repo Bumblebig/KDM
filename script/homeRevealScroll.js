@@ -1,4 +1,7 @@
 const allSections = document.querySelectorAll(".section");
+allSections.forEach(function (section) {
+  section.classList.add("section--hidden");
+});
 
 const revealSection = function (entries, observer) {
   const [entry] = entries;
@@ -11,10 +14,9 @@ const revealSection = function (entries, observer) {
 
 const sectionObserver = new IntersectionObserver(revealSection, {
   root: null,
-  threshold: 0.15,
+  threshold: 0.12,
 });
 
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
-  section.classList.add("section--hidden");
 });

@@ -722,6 +722,11 @@ footer p {
   font-size: 1.8rem;
 }
 
+.section {
+  opacity: 100;
+  transition: all ease-in-out 0.5s;
+}
+
 /* RESPONSIVENESS FOR SCREEN SIZES */
 /* MAXIMUM SCREEN SIZE IS 2000px */
 
@@ -1527,4 +1532,9 @@ footer p {
     width: 100%;
     padding: 0;
   }
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
