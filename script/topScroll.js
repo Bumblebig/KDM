@@ -1,2 +1,2 @@
-const pageHead = document.querySelector(".page-head");
+const pageHead = document.querySelector(".page-top");
 pageHead.scrollIntoView({ behavior: "smooth" });
