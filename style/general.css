@@ -28,3 +28,12 @@ main {
   position: relative;
   padding-top: 110px;
 }
+
+.reveal--hidden {
+  opacity: 0;
+  transform: translateY(15px);
+}
+
+.opacity {
+  opacity: 0;
+}

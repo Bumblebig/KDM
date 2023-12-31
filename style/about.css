@@ -83,11 +83,6 @@
   transition: all 0.8s ease-in-out;
 }
 
-.reveal--hidden {
-  opacity: 0;
-  transform: translateY(15px);
-}
-
 @keyframes transparent {
   from {
     opacity: 0;

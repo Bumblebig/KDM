@@ -2,6 +2,7 @@
   display: block;
   margin: 0px auto;
   width: 56px;
+  animation: header 1s ease-in-out;
 }
 
 .heading-text {
@@ -75,6 +76,19 @@
 .b-port {
   display: block;
   width: 100%;
+}
+
+.text {
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes header {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 920px) {

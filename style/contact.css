@@ -82,6 +82,7 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
+  transition: all 0.6s ease-in-out;
 }
 
 .input-form,
@@ -142,6 +143,24 @@ label,
 
 .hidden {
   display: none;
+}
+
+.transparent {
+  transition: all 0.6s ease-in-out;
+  animation: transparent 0.6s ease-in-out;
+}
+
+.apaque {
+  opacity: 0;
+}
+
+@keyframes transparent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 1250px) {

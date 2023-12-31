@@ -43,6 +43,10 @@
   margin: 20px auto;
 }
 
+.scroll-text {
+  transition: all 0.5s ease-in-out;
+}
+
 @media only screen and (max-width: 1250px) {
   .special-b-image {
     max-width: 50%;
