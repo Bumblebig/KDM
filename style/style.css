@@ -727,6 +727,21 @@ footer p {
   transition: all ease-in-out 0.5s;
 }
 
+.slide {
+  animation: slide ease-in-out 0.6s;
+}
+
+@keyframes slide {
+  from {
+    transition: translateY(8rem);
+    opacity: 0;
+  }
+  to {
+    transition: translateY(0px);
+    opacity: 100;
+  }
+}
+
 /* RESPONSIVENESS FOR SCREEN SIZES */
 /* MAXIMUM SCREEN SIZE IS 2000px */
 

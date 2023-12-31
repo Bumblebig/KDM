@@ -32,6 +32,7 @@ a.figure:link {
 
 .port-img {
   border-radius: 5px;
+  transition: all ease-in-out 0.5s;
 }
 
 .hover-bg {
@@ -66,6 +67,31 @@ figure:hover .hover-bg {
   top: 2px;
 }
 
+.reveal-image {
+  transition: all ease-in-out 0.5s;
+}
+
+.image--hidden {
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+.animage,
+.sec {
+  animation: animage ease-in-out 0.5s;
+}
+
+@keyframes animage {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 1250px) {
   .wrapper {
     width: 95%;
@@ -93,6 +119,10 @@ figure:hover .hover-bg {
     height: 4px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .port-img {
+    transition: all ease-in-out 0.5s;
   }
 }
 
