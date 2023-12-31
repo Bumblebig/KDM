@@ -25,9 +25,8 @@ const observe = function (cls, value) {
   });
 };
 
-if (screen <= 920) {
-  observe("reveal-image", 0.2);
-} else {
+if (screen <= 920) observe("reveal-image", 0.2);
+else {
   observe("right-image", 0.15);
   observe("left-image", 0.15);
 }
