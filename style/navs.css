@@ -118,18 +118,20 @@ ul li.navs {
   font-weight: 700;
   cursor: pointer;
   height: auto;
+  width: max-content;
   transition: all ease-in-out 0.3s;
+  padding-bottom: 3px;
 }
 
 .sub:hover {
   color: #660066;
-  text-decoration: underline;
+  border-bottom: 1px solid #660066;
 }
 
 .sub-active:link,
 .sub-active:visited {
   color: #660066;
-  text-decoration: underline;
+  border-bottom: 1px solid #660066;
 }
 
 .box {
@@ -184,8 +186,12 @@ a.nav-links-mobile:visited {
   width: 0px;
 }
 
-.mobile-sub {
+a.mobile-sub:link,
+a.mobile-sub:visited {
   display: inline-block;
+  text-align: right;
+  width: max-content;
+  margin-left: auto;
 }
 
 .mobile-sub-nav {
@@ -198,7 +204,7 @@ a.nav-links-mobile:visited {
 }
 
 .mobile-sub-height {
-  max-height: 200px;
+  max-height: 210px;
   padding: 12px 15px 10px 15px;
   margin-top: 5px;
   transition: all ease-in-out 0.3s;
