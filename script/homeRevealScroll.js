@@ -1,8 +1,12 @@
+// select elements
 const allSections = document.querySelectorAll(".section");
+
+// Include default hidden class
 allSections.forEach(function (section) {
   section.classList.add("section--hidden");
 });
 
+// rules for intersection api
 const revealSection = function (entries, observer) {
   const [entry] = entries;
 
@@ -17,6 +21,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
   threshold: 0.12,
 });
 
+// observing selected sections
 allSections.forEach(function (section) {
   sectionObserver.observe(section);
 });

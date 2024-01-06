@@ -1,0 +1,165 @@
+THIS IS A GUIDE TOWARDS THE DEVELOPMENT PROCESS OF THE "KDM GRAPHICS DESIGN LTD" WEBSITE IN THE CASE OF CORRECTION OR MODIFICATIONS.
+
+The folder stucture contains 4 directories:
+1. Portfolio - This contains the pages for each portfolio project on the website.
+2. Script - This contains the JavaScript files used to implement certain actions on the website.
+3. Skins - Includes all assests from images to icons, illustrations among others.
+4. Style - The CSS files used for styling the webpages on the website are present.
+
+Then at the root of the entire folder are main pages of the website.
+
+The entire folder is structured in such way to ensure easier understanding and code reuse across multiple pages which may include same elements/components. Hence, enhancing the website's performance.
+
+# DEVELOPMENT PROCESS
+
+- "INDEX.HTML"
+    The "index.html" and "style.css" had been done earlier and initially so not much codes from there were being reused. However in the "index.html", I had to reuse styles for the footer since the footer is the same acrooss all pages. While developing other pages, I created a seperate css file for the footer to be used across all pages. I included "footer.css" present in the the "Style/" directory.
+    The rest of the styling rules present here are in "style.css" which is specifically for "index.html" alone.
+
+    For the scripts, I included 3 (They were all reused across many pages). 
+
+        I. "indexNav.js": This handles toggling the navigation for the home page while on mobile devices or tablets.
+        
+        II. "topScroll.js": This automatically scrolls the page up on load or reload(if the broswer doesn't override it) to ensure "homeRevealScroll.js" or other "Reveal-type-file" works.
+
+        III. "homeRevealScroll.js": This file was reused for almost every page. It reveals section while scrolling as implemented in the referrence website.
+
+
+- "OUR-WORK.HTML"
+    Multiple CSS file were used on this page as they had similar layouts to other pages too. The css files used are:
+
+        I. "general.css": This was used to define the pages width, padding across all screen sizes as well as default styling such as default font sizes, font family/style, maximum and minimum width and other styles needed for the pages. Every page except "index.html" uses it.
+
+        II. "our-work.css": Contains custom styles for the "Our-work" page alone. It's layout is a bit different from other pages.
+
+        III. "navs.css": Since every other pages apart from "index.html" uses the same type of nav, I decided to create a separate nav style file to be reused across the other pages. It contains the style rules for the navigaton bar acrosss every screen sizes (Desktop/Tablets/Mobile).
+
+        IV. "footer.css": Same footer rules for every page. 
+    
+    The scripting files include:
+
+        I. "topScroll.js": Explained what it does earlier.
+
+        II. "nav.js": Navigation layouts and style here is different from the homepage but same with every other page. This file toggles nav on and off (hover and out) for both mobile and desktops respectively.
+
+        III. "workReveal.js": A unique 'Reveal-on-scroll' file for this page, it's layout is different from the other pages so it gets its own custom file.
+
+
+- "ABOUT.HTML"
+    
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "about.css": Contains custom style rules for this page.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealAbout.js": Has a different layout from other pages
+
+
+- "CONTACT.HTML"
+
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "contact.css": custom code.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    No reveal on scroll
+
+
+- "PRIVACY.HTML"
+    This page can be accessed through the footer
+
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "privacy.css": custom code.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+
+
+
+////////////////// PORTFOLIO PAGES ///////////////////////
+Most of these pages have similar layouts, most of the codes were reused, especially "revealPortfolio.js"
+
+- "BIA-AQUAPONICS.HTML"
+
+    
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css": This contains the code for the layouts of every portfolio pages, although few pages with additional layouts have custom files to override the styles.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
+
+
+- "BLACK-BRILLIANCE.HTML"
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css"
+    V. "black-brilliance.css": additional layouts design rules for the page.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
+
+
+- "CARE-FERTILITY.HTML"
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css"
+    V. "care-fertility.css": custom design.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
+
+
+- "COOPERSURGICAL.HTML"
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css"
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
+
+
+- "NATURAL-BS.HTML"
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css"
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
+
+
+- "TREBOR-LLAMS.HTML"
+    I. "general.css"
+    II. "navs.css"
+    III. "footer.css"
+    IV. "portfolio.css"
+    V. "trebor.css": custom code.
+
+    Scripts:
+    I. "topScroll.js"
+    II. "nav.js"
+    III. "revealPortfolio.js"
