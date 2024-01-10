@@ -25,7 +25,7 @@ header::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1240px;
+  width: 90%;
   margin: 0px auto;
   padding: 1rem 16px;
   position: relative;
@@ -46,7 +46,7 @@ ul li.navs {
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding-bottom: 3px;
 }
 
@@ -110,8 +110,8 @@ ul li.navs {
   display: flex;
   flex-direction: column;
   gap: 1px;
-  top: 54px;
-  right: 164px;
+  top: 56px;
+  right: 174px;
 }
 
 .sub:link,
@@ -223,27 +223,57 @@ a.mobile-sub:visited {
   transform: rotate(180deg);
 }
 
-/* @media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 2500px) {
   .sub-nav {
-    right: 4px;
+    right: 250px;
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 2000px) {
   .sub-nav {
-    right: 300px;
+    top: 66px;
+    right: 258px;
+  }
+
+  .kdm-logo {
+    width: 190px;
+  }
+
+  .nav-links:link,
+  .nav-links:visited {
+    font-size: 1.8rem;
+  }
+
+  .sub:link,
+  .sub:visited {
+    font-size: 1.7rem;
   }
 }
 
 @media only screen and (max-width: 1500px) {
   .sub-nav {
-    right: 164px;
+    top: 56px;
+    right: 200px;
   }
-} */
+
+  .kdm-logo {
+    width: 153px;
+  }
+
+  .nav-links:link,
+  .nav-links:visited {
+    font-size: 1.4rem;
+  }
+
+  .sub:link,
+  .sub:visited {
+    font-size: 1.3rem;
+  }
+}
 
 @media only screen and (max-width: 1250px) {
-  .nav-cont {
-    width: 100%;
+  .sub-nav {
+    right: 185px;
   }
 }
 
