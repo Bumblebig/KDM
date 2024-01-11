@@ -1354,13 +1354,7 @@ footer p {
   }
 
   .general-padding {
-    padding: 0px;
-  }
-
-  .tablet-nav {
-    justify-content: flex-end;
-    padding: 3% 1%;
-    gap: 30%;
+    padding: 10px;
   }
 
   .hero-heading {
